@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>MARVEL GAMING</title>
+    <style type="text/css">
+    * {
+    margin:4;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    }
+    
+    body 
+    {
+    background-color: #000;
+    color: #ff0000;
+    text-rendering: 2rem;
+    }
+    
+    header 
+    {
+    background-color: gray;
+    color: #000;
+    padding-block: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    max-width:999px;
+    }
+    
+    header h1 
+    {
+    font-size: 2rem;
+    font-stretch:condensed;
+    color: red;
+    background-color:#000;
+    border-radius: 1rem;
+    padding: 1rem;
+    }
+    
+    h2
+    {
+    font-family: 'Montserrat';
+    font-weight:bolder;
+    font-size:larger;
+    background-color:black;
+    }
+    
+    header ul 
+    {
+    display: flex;
+    list-style: none;
+    }
+    
+    header ul li 
+    {
+    margin: 1rem;
+    }
+    
+    header ul li a 
+    {
+    color: #ff0000;
+    text-decoration: none;
+    font-size:1rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color:black;
+    border-radius:1rem;
+    }
+    
+    header ul li a:hover 
+    {
+    background-color: #ff0000;
+    color: #000;
+    border-radius: 2rem;
+    }
+    
+    main 
+    {
+    padding: 2rem;
+    }
+    
+    section 
+    {
+    margin: 4rem 0;
+    }
+    
+    h2
+    {
+    font-weight:bold; 
+    font-size: 50px;
+    background-color:red;
+    color:black;
+    padding:3rem;
+    margin:3rem 2rem;
+    border-radius:3rem;
+    font-size:3rem;
+    text-shadow: -2.5px -2.5px 0 grey, 2.5px -2.5px 0 grey, -2.5px 2.5px 0 grey, 2.5px 2.5px 0 grey;
+    }
+    
+    section h1
+    {
+    font-family:'Montserrat';
+    font-weight:bolder;
+    background-color:red;
+    color:black;
+    border-radius:1rem;
+    font-stretch:expanded;
+    margin-left:20px;
+    }
+    
+    section h2 
+    {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: red;
+    background-color:gray;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    text-shadow: -3.2px 3.2px 0 #000, -2px 2px 0 #000, -2px 2px 0 #000, -2px 2px 0 #000;
+    }
+    
+    section p 
+    {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: red;
+    font-family:'Montserrat';
+    font-weight:bold;
+    }
+    
+    section a 
+    {
+    display: block;
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: red;
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 900px;
+    text-decoration: none;
+    }
+    
+    /* new */
+    .social-link 
+    {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+    font-size: 4rem;
+    margin: 4rem auto;
+    border-radius: 4rem;
+    width: 100%;
+    }
+    
+    .instagram 
+    {
+    background: url('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-512.png') no-repeat center center;
+    }
+    
+    .twitter 
+    {
+    background: url('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitter-square2-512.png') no-repeat center center;
+    }
+    
+    .telegram 
+    {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgGZ1IbD43peT6ckASAN7bJeJFDZnS42oh5A&usqp=CAU') no-repeat center center;
+    -webkit-mask-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgGZ1IbD43peT6ckASAN7bJeJFDZnS42oh5A&usqp=CAU');
+    mask-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgGZ1IbD43peT6ckASAN7bJeJFDZnS42oh5A&usqp=CAU');
+    }
+    
+    .discord 
+    {
+    background: url('https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-512.png') no-repeat center center;
+    }
+    
+    .social-link .icon 
+    {
+    display: block;
+    width: 90%;
+    margin-bottom: 400px;
+    border-radius:4rem;
+    font-weight:bold;
+    font-size:80px;
+    }
+    /* end*/
+    section a:hover 
+    {
+    color: black;
+    border-radius: 4rem;
+    }
+    
+    p a 
+    {
+    color: black;
+    border-radius: 4rem;
+    font-size:50px;
+    text-align:center;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family:'Montserrat';
+    font-weight:bold;
+    text-decoration:none;
+    }
+    
+    footer 
+    {
+    background-color: gray;
+    color: black;
+    font-family:Arial,sans-serif;
+    font-weight:bolder;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 4rem;
+    }
+    
+    footer p 
+    {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color:gray;
+    }
+    
+    </style>  
+</head>
+<body>
+
+	<header>
+		<h1>MARVEL GAMING</h1>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#videos">Videos</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="home">
+			<h2>Welcome To MARVEL GAMING🎮</h2><br>
+		</section>
+		
+	    <section id="about">
+			<p>Basically this is a gaming channel. I will play mobile games and try to tell some tricks and tips to grow in that game,
+			 I will try to reveal more ideas about those games,so please subscribe and follow our videos.Thank You.🇮🇳</p>
+			<br>
+			<a href="#videos">Watch Our Videos</a><br>
+			<iframe width="560" height="315" src="https://youtube.com/embed/BvhdbDfYy8A" frameborder="0" allowfullscreen></iframe>
+			</section>
+		
+		<section id="videos">
+		<h2>Latest Videos</h2><br>
+		<!-- Here you can add your video content, such as <iframe> elements with embedded videos from YouTube or other video platforms -->
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/a0orqegvu44" frameborder="0" allowfullscreen></iframe><br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/OzbvRFBmvvU" frameborder="0" allowfullscreen></iframe><br>
+	    <iframe width="560" height="315" src="https://www.youtube.com/embed/-mFGq0ic-YY" frameborder="0" allowfullscreen></iframe><br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/fB-KtbZFhp0" frameborder="0" allowfullscreen></iframe><br>
+		</section>
+		
+		<section id="contact">
+		<h2>Contact Us📱<br><br>
+		 For Advertising contact through<br>
+		 <a href="mailto:sonythiruthirusony@gmail.com">Email</a></h2>
+     	</section>	
+     	
+	<h2>Got any questions or comments?</h2><br>
+    <h2>Follow us on social media:</h2>
+    
+    <p>
+      <a href="https://www.instagram.com/marvel_gaming_100/" class="social-link instagram"><span class="icon"></span>Instagram</a></li><br><br>
+      <a href="https://www.twitter.com/MARVELGAMING100" class="social-link twitter"><span class="icon"></span>Twitter</a></li><br><br>
+      <a href="https://t.me/marvelgaming100" class="social-link telegram"><span class="icon"></span>Telegram</a></li><br><br>
+      <a href="https://discord.gg/mfT4TqS7" class="social-link discord"><span class="icon"></span>Discord</a></li>
+    </p>
+        <br>		
+		</main>
+		 
+		<footer>
+		<p>&copy; 2023 MARVEL GAMING. All rights reserved.</p>
+		</footer> 
+		</body>
+		</html>
